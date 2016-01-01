@@ -15,8 +15,10 @@ my $scr = Path::Tiny->tempfile;
 
 if (@ARGV == 0) {
     printf $cp932->encode(<<HELP);
-SJ4000で録画したMovieをmp4にdemuxする
-(AVIUtl等で扱いやすくするため)
+SJ4000(のコピー品)で録画したMovieをdemux→mp4にmuxするスクリプト。
+元々がQuickTimeでAVIutlで扱いにくいために作成。
+
+以下のようなBatchを作成しておくことで、D&Dでdemux→muxできる。
 
 usage : $0  INPUT_1.mov  INPUT_2.mov ...
 
