@@ -15,6 +15,6 @@ perl avidemux_helper_per_1file.pl %*
 
 AVIDemux 2.6 が必要です。
 
-http://fixounet.free.fr/avidemux/
-https://osdn.jp/projects/avidemux/
+* http://fixounet.free.fr/avidemux/
+* https://osdn.jp/projects/avidemux/
 
