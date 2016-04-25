@@ -18,3 +18,4 @@ AVIDemux 2.6 が必要です。
 * http://fixounet.free.fr/avidemux/
 * https://osdn.jp/projects/avidemux/
 
+インストール時、`User Interfaces > Command Line`にチェックを入れる必要があります。
